@@ -1,0 +1,13 @@
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\bin\Debug\Dados.mdf
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\bin\Debug\Dados_log.ldf
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\bin\Debug\ProvaPratica_20210616.exe.config
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\bin\Debug\ProvaPratica_20210616.exe
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\bin\Debug\ProvaPratica_20210616.pdb
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.csprojAssemblyReference.cache
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.Properties.Resources.resources
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.csproj.GenerateResource.cache
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.exe
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.pdb
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.Clientes.resources
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.Principal.resources
+C:\Users\felip\source\repos\ProvaPratica_20210616\ProvaPratica_20210616\obj\Debug\ProvaPratica_20210616.PesquisaCliente.resources
