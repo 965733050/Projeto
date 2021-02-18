@@ -16,16 +16,15 @@ namespace ProvaPratica_20210616
         {
             InitializeComponent();
         }
-
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Clientes formClientes = new Clientes();
             formClientes.ShowDialog();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

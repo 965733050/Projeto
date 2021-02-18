@@ -53,7 +53,6 @@
             this.label1.Size = new System.Drawing.Size(38, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "CPF:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // MaskCPF
             // 
@@ -62,6 +61,7 @@
             this.MaskCPF.Name = "MaskCPF";
             this.MaskCPF.Size = new System.Drawing.Size(145, 22);
             this.MaskCPF.TabIndex = 1;
+            this.MaskCPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.MaskCPF_MaskInputRejected);
             // 
             // btnLocalizar
             // 
@@ -146,7 +146,6 @@
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.Size = new System.Drawing.Size(120, 84);
             this.txtStatus.TabIndex = 10;
-            this.txtStatus.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // btnIncluir
             // 
@@ -183,6 +182,7 @@
             this.btnFechar.TabIndex = 14;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click_1);
             // 
             // Clientes
             // 

@@ -29,7 +29,7 @@ namespace ProvaPratica_20210616
             pri = Formpri;
         }
 
-        private void Clientes_Load(Object sender, EventArgs e)
+        private void Clientes_Load(object sender, EventArgs e)
         {
             if(MaskCPF.Text != "")
             {
@@ -38,13 +38,13 @@ namespace ProvaPratica_20210616
             }
         }
 
-        private void btnLocalizar_click(Object sender, EventArgs e)
+        private void btnLocalizar_click(object sender, EventArgs e)
         {
             PesquisaCliente formPesquisaCliente = new PesquisaCliente(this);
             formPesquisaCliente.ShowDialog(this);
         }
 
-        private void btnIncluir_click(Object sender, EventArgs e)
+        private void btnIncluir_click(object sender, EventArgs e)
         {
             MaskCPF.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             if (MaskCPF.Text == "")
@@ -69,7 +69,7 @@ namespace ProvaPratica_20210616
             }
         }
 
-        private void btnAlterar_click(Object sender, EventArgs e)
+        private void btnAlterar_click(object sender, EventArgs e)
         {
             try
             {
@@ -82,7 +82,7 @@ namespace ProvaPratica_20210616
             }
         }
 
-        private void btnExcluir_click(Object sender, EventArgs e)
+        private void btnExcluir_click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Deseja realmente excluir este cliente?", "Excluir cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
@@ -104,19 +104,15 @@ namespace ProvaPratica_20210616
                 }
             }
         }
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnFechar_Click(Object sender, EventArgs e)
+        private void btnFechar_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void MaskCPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }
